@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zathadi Catering</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-utensils"></i> <span>Zathadi Catering</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#packages">Catering Packages</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn btn-outline" id="btnLogin">Login</button>
+                <button class="btn btn-solid" id="btnRegister">Register</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1>Simplifying Your Catering Needs</h1>
+                <p>Your centralized platform to browse packages, place orders online, and connect with premier catering services.</p>
+                <button class="btn btn-solid btn-large">Explore Packages</button>
+            </div>
+        </section>
+
+        <section id="features" class="features container">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-user-plus feature-icon"></i>
+                    <h3>Easy Account Creation</h3>
+                    <p>Register securely in seconds to start planning your event .</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-book-open feature-icon"></i>
+                    <h3>Browse Diverse Packages</h3>
+                    <p>View detailed menus and pricing tailored for any occasion .</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-concierge-bell feature-icon"></i>
+                    <h3>Place Secure Online Orders</h3>
+                    <p>Submit event details and confirm your catering needs effortlessly .</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="packages" class="packages container">
+            <h2>Featured Packages</h2>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-image image-placeholder">
+                        <img src="IMAGES/PLATER  (3).jpeg" alt="Corporate Lunch Setup" style="width:100%; height:100%; object-fit: cover;">
+                        </div>
+                    <div class="package-details">
+                        <div class="package-header">
+                            <h3>Corporate Lunch</h3>
+                            <span class="price">R15 000</span> </div>
+                        <p class="description">Professional menus, summary description of typical items .</p>
+                        <button class="btn btn-outline btn-full">View Details</button>
+                    </div>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-image image-placeholder">
+                        <img src="IMAGES/PLATER  (4).jpeg" alt="Elegant Wedding Buffet" style="width:100%; height:100%; object-fit: cover;">
+                    </div>
+                    <div class="package-details">
+                        <div class="package-header">
+                            <h3>Elegant Wedding</h3>
+                            <span class="price">R10 000</span>
+                        </div>
+                        <p class="description">Professional menus, summary description of typical items.</p>
+                        <button class="btn btn-outline btn-full">View Details</button>
+                    </div>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-image image-placeholder">
+                        <img src="IMAGES/PLATER  (5).jpeg" alt="Casual Party Platter" style="width:100%; height:100%; object-fit: cover;">
+                    </div>
+                    <div class="package-details">
+                        <div class="package-header">
+                            <h3>Casual Party platter</h3>
+                            <span class="price">R10 500</span>
+                        </div>
+                        <p class="description">Professional menus, summary description of typical items.</p>
+                        <button class="btn btn-outline btn-full">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; <span id="currentYear"></span> Zathadi Catering. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="APP.JS"></script>
+</body>
+</html>
